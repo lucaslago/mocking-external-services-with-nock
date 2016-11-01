@@ -8,11 +8,10 @@ describe('GET GitHub Followers', () => {
     const username = 'lucaslago';
 
     getUserFollowers(username)
-      .then(response => {
-        const followers = response.body;
+      .then(followers => {
         expect(followers).to.be.instanceof(Array);
         expect(followers).to.have.length.above(1);
-        //followers.forEach(f => expect(f).to.be.a('string'));
+        followers.forEach(f => expect(f).to.be.a('string'));
         done();
       })
       .catch(err => done(err));
