@@ -18,3 +18,11 @@ Alguns problemas surgiram:
 ### Parece que os meus testes não estão tão deterministicos assim, e agora?
 
 **Boas práticas to the rescue**: evitar testar coisas fora do meu controle! Nock it!
+
+# Rodando código de exemplo
+
+1. npm install
+1. `npm start <github username>`
+
+### Testes
+`npm test`
