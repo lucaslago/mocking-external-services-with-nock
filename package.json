@@ -11,8 +11,8 @@
     "url": "git+https://github.com/lucaslago/mocking-external-services-with-nock.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Lucas Lago",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lucaslago/mocking-external-services-with-nock/issues"
   },
